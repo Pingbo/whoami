@@ -9,4 +9,3 @@ Simple HTTP docker service that prints it's container ID
     $ curl $(hostname --all-ip-addresses | awk '{print $1}'):8000
     I'm 736ab83847bb
 
-Test
